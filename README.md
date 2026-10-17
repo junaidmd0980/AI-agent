@@ -35,8 +35,8 @@ This agent acts as an autonomous coding assistant capable of interacting with th
 
 2. Create and activate a virtual environment:
    ```bash
-   python3 -m venv venv
-   source venv/bin/activate
+   python3 -m venv .venv
+   source .venv/bin/activate
    ```
 
 3. Install dependencies:
@@ -56,5 +56,5 @@ This agent acts as an autonomous coding assistant capable of interacting with th
 
 Run the agent from your terminal:
 ```bash
-python main.py "Fix the failing test in tests/test_calc.py"
+python3 main.py "Fix the failing test in tests/test_calc.py"
 ```
