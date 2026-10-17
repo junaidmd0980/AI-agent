@@ -56,5 +56,5 @@ This agent acts as an autonomous coding assistant capable of interacting with th
 
 Run the agent from your terminal:
 ```bash
-python3 main.py "Fix the failing test in tests/test_calc.p"
+python3 main.py "Build a simple calculator in the workspace"
 ```
